@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Control de calidad',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Control de calidad en el desarrollo de software',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Indicadores claves de desempeño (KPIs) en pruebas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Aplicación de normas ISO 9001 e ISO/IEC 25010',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +70,118 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Omaña, M. (2012). Manufactura esbelta: una contribución para el desarrollo de software con calidad: ( ed.). Red Enlace.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/98547',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Ortega Candel, J. M. (2018). Seguridad en aplicaciones Web Java: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106511',
+    },
+    {
+      referencia:
+        'Piattini Velthuis, M. & Garzás Parra, J. (2015). Fábricas de software: experiencias, tecnologías y organización: ( ed.). RA-MA Editorial.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/106389',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Auditoría de calidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Proceso de revisión sistemática para evaluar la conformidad con estándares.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Automatización de pruebas',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Uso de herramientas para ejecutar casos de prueba automáticamente.',
+    },
+    {
+      termino: 'Bug',
+      significado:
+        'Término comúnmente utilizado para referirse a un error o defecto en el software.',
+    },
+    {
+      termino: 'Caja blanca',
+      significado:
+        'Técnica de prueba basada en el conocimiento del código fuente.',
+    },
+    {
+      termino: 'Caja negra',
+      significado:
+        'Técnica de prueba basada en la funcionalidad sin conocer el código interno.',
+    },
+    {
+      termino: 'Calidad',
+      significado:
+        'Grado en el que un producto cumple con los requisitos especificados y expectativas del usuario.',
+    },
+    {
+      termino: 'Caso de prueba',
+      significado:
+        'Conjunto de condiciones y pasos utilizados para verificar una funcionalidad específica.',
+    },
+    {
+      termino: 'Cobertura de pruebas',
+      significado:
+        'Porcentaje del código que ha sido ejecutado mediante pruebas.',
+    },
+    {
+      termino: 'Defecto',
+      significado:
+        'Error o fallo en el software que causa un comportamiento inesperado.',
+    },
+    {
+      termino: 'Indicador de desempeño',
+      significado:
+        'Métrica utilizada para evaluar la eficiencia o efectividad de un proceso.',
+    },
+    {
+      termino: 'ISO 9001',
+      significado:
+        'Norma internacional para sistemas de gestión de la calidad.',
+    },
+    {
+      termino: 'KPI',
+      significado:
+        'Indicador clave de rendimiento utilizado para medir objetivos estratégicos.',
+    },
+    {
+      termino: 'Mejora continua',
+      significado: 'Ciclo de optimización constante de procesos y productos.',
+    },
+    {
+      termino: 'MTTR',
+      significado: 'Tiempo medio de resolución de defectos.',
+    },
+    {
+      termino: 'Prueba de integración',
+      significado:
+        'Evaluación de la interacción entre múltiples módulos de software.',
+    },
+    {
+      termino: 'Prueba de regresión',
+      significado:
+        'Verificación de que un cambio no haya afectado funcionalidades ya existentes.',
+    },
+    {
+      termino: 'Prueba de sistema',
+      significado:
+        'Prueba que evalúa un sistema completo como una entidad integrada.',
+    },
+    {
+      termino: 'Prueba de software',
+      significado:
+        'Proceso sistemático para evaluar la funcionalidad y calidad de una aplicación.',
+    },
+    {
+      termino: 'Prueba unitaria',
+      significado:
+        'Validación de la funcionalidad de una unidad o módulo individual de código.',
+    },
+    {
+      termino: 'SCRUM',
+      significado:
+        'Marco de trabajo ágil utilizado para el desarrollo iterativo de software.',
     },
   ],
 }
