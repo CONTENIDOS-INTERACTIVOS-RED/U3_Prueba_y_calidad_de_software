@@ -241,7 +241,7 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Anexo_2.pdf
+                p <strong>Anexo. </strong> Clasificación ampliada de los indicadores de desempeño
 
     // Bloque 17/21: titulo-segundo
     #t_2_3.titulo-segundo(data-aos="flip-up")

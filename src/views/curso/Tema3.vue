@@ -321,15 +321,15 @@ export default {
       cuestionario: cuestionarios.tema3,
     }
   },
-  methods: {
-    obtenerLink(recurso) {
-      return `${process.env.BASE_URL}downloads/${recurso}`
-    },
-  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
+  },
+  methods: {
+    obtenerLink(recurso) {
+      return `${process.env.BASE_URL}downloads/${recurso}`
+    },
   },
 }
 </script>
