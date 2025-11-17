@@ -44,12 +44,17 @@
         p La unidad está organizada en tres temas.
 
     // Bloque 4/5: imagen-color
-    .row.mb-5
+    .row.mb-4
       .col-lg-8
-        .bg-color-16.p-4(data-aos="fade-left").mb-4
-          p.mb-3 #[strong Tema 1] Se enfoca en las auditorías de calidad, abordando sus tipos, etapas y ejemplos aplicados en ciclos de vida del software.
-          p.mb-3 #[strong Tema 2] Analiza los indicadores de desempeño, su clasificación, aplicación práctica y uso para la toma de decisiones basada en datos.
-          p.mb-0 #[strong Tema 3] Desarrolla la implementación de normas ISO 9001, con especial énfasis en su adaptación al contexto del aseguramiento de calidad en entornos ágiles y de integración continua.
+        .bg-color-16.p-4.py-lg-5(data-aos="fade-left").mb-4.text-white
+          p.mb-2 #[strong Tema 1] 
+          p.mb-4 Se enfoca en las auditorías de calidad, abordando sus tipos, etapas y ejemplos aplicados en ciclos de vida del software.
+          
+          p.mb-2 #[strong Tema 2] 
+          p.mb-4 Analiza los indicadores de desempeño, su clasificación, aplicación práctica y uso para la toma de decisiones basada en datos.
+          
+          p.mb-2 #[strong Tema 3] 
+          p.mb-4 Desarrolla la implementación de normas ISO 9001, con especial énfasis en su adaptación al contexto del aseguramiento de calidad en entornos ágiles y de integración continua.
 
       .col-lg-4
         figure
