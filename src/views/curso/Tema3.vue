@@ -168,11 +168,13 @@
             h2.mb-4(data-aos="flip-up") Ruta estructurada para la implementación
             p.mb-4(data-aos="fade-right") En el PDF Ruta estructurada para la implementación, se describe un proceso dividido en seis etapas clave que guían desde el análisis del contexto organizacional hasta la mejora continua. Este enfoque progresivo permite establecer una base sólida para la estandarización, trazabilidad y optimización de los procesos técnicos y de calidad en proyectos de software.
 
+
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
-                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <strong>Anexo. </strong> Ruta estructurada para la implementación
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Ruta estructurada para la implementación
+
 
     // Bloque 12/14: titulo-segundo
     #t_3_5.titulo-segundo(data-aos="flip-up")
@@ -266,7 +268,7 @@
                 | Analizar feedback del cliente o usuario final post-release.
             
             figure
-              img(src='@/assets/curso/tema3/6.png', alt='', style="max-width: 800px;").mx-auto
+              img(src='@/assets/curso/tema3/6b.png', alt='', style="max-width: 430px;").mx-auto
 
           .div(titulo="Cláusula 10 - Mejora")
             h5.mb-2 Aplicación en QA:
@@ -325,11 +327,6 @@ export default {
     this.$nextTick(() => {
       this.$aosRefresh()
     })
-  },
-  methods: {
-    obtenerLink(recurso) {
-      return `${process.env.BASE_URL}downloads/${recurso}`
-    },
   },
 }
 </script>
